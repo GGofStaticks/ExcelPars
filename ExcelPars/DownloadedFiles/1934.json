@@ -1,0 +1,180 @@
+{
+  "data": [
+    {
+      "order": {
+        "customerOrderDate": "2025-12-14T22:58:24+03:00",
+        "customerOrderId": "DG000000000000001934",
+        "orderPaymentTypeId": "CARD_ONLINE",
+        "paymentTransactionId": "4c8a1f55-e710-76f1-ae6b-0ec22a6797b9",
+        "transactionInfo": {
+          "payerBankBic": null,
+          "payerBankName": "Sberbank Of Russia",
+          "paymentSystem": "VISA",
+          "paymentMethod": "card",
+          "paymentOperations": [
+            {
+              "rrn": "045734450901",
+              "type": "Покупка",
+              "amount": 18.2
+            }
+          ]
+        },
+        "acquirerName": "SBERBANK_SL",
+        "customerId": "79",
+        "isAuthorizedCustomer": true,
+        "customerEmail": "abramov.a@winsolutions.ru",
+        "customerSteamLogin": null
+      },
+      "serviceScheme": "DELIVERY_BY_MERCHANT",
+      "method": "CLICK_COLLECT",
+      "shipment": {
+        "shipmentOrderId": "DG000000000000019341",
+        "brand": "Gamerilla",
+        "partnerId": "000023759",
+        "contractId": "000000000827972",
+        "merchantOrderCode": "4c8a1f55-e710-76f1-ae6b-0ec22a6797b9",
+        "merchantId": "254423",
+        "payment": {
+          "paymentTypeId": "CARD_ONLINE",
+          "amount": 18.2
+        },
+        "lots": [
+          {
+            "statusDate": "2025-12-14T23:05:53+03:00",
+            "lotId": "DG00000000001934-001",
+            "lotStatusId": "RCOMPLT",
+            "lotName": "Добавленная игра",
+            "discounts": [
+              {
+                "id": "00000000-0000-0000-0000-000000000aeb",
+                "amount": 1742.35
+              },
+              {
+                "id": "00000000-0000-0000-0000-fffffffffaeb",
+                "amount": 1742.35
+              }
+            ],
+            "privilegesObtained": [],
+            "good": {
+              "goodsId": "0000000000012809",
+              "categoryId": "900101011101",
+              "merchantGoodsId": "12809"
+            },
+            "quantity": 1,
+            "price": 18.2,
+            "amount": 0.0
+          }
+        ]
+      },
+      "timeStamp": "2025-12-14T23:05:53+03:00",
+      "dataVersion": "639013395534566281",
+      "type": "digital goods",
+      "source": "GamersHub",
+      "reference": {
+        "promotions": [
+          {
+            "promotionId": "00000000-0000-0000-0000-fffffffffaeb",
+            "periodId": "00000000-0000-0000-0001-fffffffffaeb",
+            "typeCode": "GHSpasibo",
+            "name": "Списание спасибо",
+            "groupId": "GH0.1",
+            "fundingShares": [
+              {
+                "funder": "000029932",
+                "share": 100
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "order": {
+        "customerOrderDate": "2025-12-14T22:58:24+03:00",
+        "customerOrderId": "DG000000000000001934",
+        "orderPaymentTypeId": "CARD_ONLINE",
+        "paymentTransactionId": "4c8a1f55-e710-76f1-ae6b-0ec22a6797b9",
+        "transactionInfo": {
+          "payerBankBic": null,
+          "payerBankName": "Sberbank Of Russia",
+          "paymentSystem": "VISA",
+          "paymentMethod": "card",
+          "paymentOperations": [
+            {
+              "rrn": "045734450901",
+              "type": "Покупка",
+              "amount": 10.34
+            }
+          ]
+        },
+        "acquirerName": "SBERBANK_SL",
+        "customerId": "79",
+        "isAuthorizedCustomer": true,
+        "customerEmail": "abramov.a@winsolutions.ru",
+        "customerSteamLogin": null
+      },
+      "serviceScheme": "DELIVERY_BY_MERCHANT",
+      "method": "CLICK_COLLECT",
+      "shipment": {
+        "shipmentOrderId": "DG000000000000019342",
+        "brand": "TestSoftClub",
+        "partnerId": "000000000",
+        "contractId": "000000000000000",
+        "merchantOrderCode": "4c8a1f55-e710-76f1-ae6b-0ec22a6797b9",
+        "merchantId": "000000",
+        "payment": {
+          "paymentTypeId": "CARD_ONLINE",
+          "amount": 10.34
+        },
+        "lots": [
+          {
+            "statusDate": "2025-12-14T23:05:53+03:00",
+            "lotId": "DG00000000001934-002",
+            "lotStatusId": "RCOMPLT",
+            "lotName": "Playstation Store пополнение бумажника: Карта оплаты 1000 руб. [Карта цифрового кода]",
+            "discounts": [
+              {
+                "id": "00000000-0000-0000-0000-000000000aeb",
+                "amount": 990.65
+              },
+              {
+                "id": "00000000-0000-0000-0000-fffffffffaeb",
+                "amount": 990.65
+              }
+            ],
+            "privilegesObtained": [],
+            "good": {
+              "goodsId": "0000000000012656",
+              "categoryId": "900101011101",
+              "merchantGoodsId": "12656"
+            },
+            "quantity": 1,
+            "price": 10.34,
+            "amount": 0.0
+          }
+        ]
+      },
+      "timeStamp": "2025-12-14T23:05:53+03:00",
+      "dataVersion": "639013395536273703",
+      "type": "digital goods",
+      "source": "GamersHub",
+      "reference": {
+        "promotions": [
+          {
+            "promotionId": "00000000-0000-0000-0000-fffffffffaeb",
+            "periodId": "00000000-0000-0000-0001-fffffffffaeb",
+            "typeCode": "GHSpasibo",
+            "name": "Списание спасибо",
+            "groupId": "GH0.1",
+            "fundingShares": [
+              {
+                "funder": "000029932",
+                "share": 100
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

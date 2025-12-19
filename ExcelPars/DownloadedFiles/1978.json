@@ -1,0 +1,105 @@
+{
+  "data": [
+    {
+      "order": {
+        "customerOrderDate": "2025-12-17T15:37:43+03:00",
+        "customerOrderId": "DG000000000000001978",
+        "orderPaymentTypeId": "CARD_ONLINE",
+        "paymentTransactionId": "29c49984-8d48-74ba-85c7-1e5f2a6797b9",
+        "transactionInfo": {
+          "payerBankBic": null,
+          "payerBankName": "Sberbank Of Russia",
+          "paymentSystem": "VISA",
+          "paymentMethod": "card",
+          "paymentOperations": [
+            {
+              "rrn": "679719161166",
+              "type": "Покупка",
+              "amount": 3.7
+            }
+          ]
+        },
+        "acquirerName": "SBERBANK_SL",
+        "customerId": "79",
+        "isAuthorizedCustomer": true,
+        "customerEmail": "abramov.a@winsolutions.ru",
+        "customerSteamLogin": null
+      },
+      "serviceScheme": "DELIVERY_BY_MERCHANT",
+      "method": "CLICK_COLLECT",
+      "shipment": {
+        "shipmentOrderId": "DG000000000000019781",
+        "brand": "Gamerilla",
+        "partnerId": "000023759",
+        "contractId": "000000000827972",
+        "merchantOrderCode": "29c49984-8d48-74ba-85c7-1e5f2a6797b9",
+        "merchantId": "254423",
+        "payment": {
+          "paymentTypeId": "CARD_ONLINE",
+          "amount": 3.7
+        },
+        "lots": [
+          {
+            "statusDate": "2025-12-17T15:44:25+03:00",
+            "lotId": "DG00000000001978-001",
+            "lotStatusId": "RCOMPLT",
+            "lotName": "Kukuruza",
+            "discounts": [
+              {
+                "id": "00000000-0000-0000-0000-000000011aeb",
+                "amount": 33.3
+              },
+              {
+                "id": "00000000-0000-0000-0000-fffffffffaeb",
+                "amount": 296.0
+              }
+            ],
+            "privilegesObtained": [],
+            "good": {
+              "goodsId": "0000000000012705",
+              "categoryId": "900101011101",
+              "merchantGoodsId": "12705"
+            },
+            "quantity": 1,
+            "price": 333.0,
+            "amount": 3.7
+          }
+        ]
+      },
+      "timeStamp": "2025-12-17T15:44:26+03:00",
+      "dataVersion": "639015722662285634",
+      "type": "digital goods",
+      "source": "GamersHub",
+      "reference": {
+        "promotions": [
+          {
+            "promotionId": "00000000-0000-0000-0000-000000011aeb",
+            "periodId": "00000000-0000-0000-0001-000000011aeb",
+            "typeCode": "GHPromokod",
+            "name": "Персональный промокод в Gamershub",
+            "groupId": "GH0.1",
+            "fundingShares": [
+              {
+                "funder": "000029932",
+                "share": 100
+              }
+            ]
+          },
+          {
+            "promotionId": "00000000-0000-0000-0000-fffffffffaeb",
+            "periodId": "00000000-0000-0000-0001-fffffffffaeb",
+            "typeCode": "GHSpasibo",
+            "name": "Списание спасибо",
+            "groupId": "GH0.1",
+            "fundingShares": [
+              {
+                "funder": "000029932",
+                "share": 100
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

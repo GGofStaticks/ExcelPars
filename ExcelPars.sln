@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelPars", "ExcelPars\ExcelPars.csproj", "{1443D580-26B1-4BCD-89C5-9972F1DCFDC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1443D580-26B1-4BCD-89C5-9972F1DCFDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1443D580-26B1-4BCD-89C5-9972F1DCFDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1443D580-26B1-4BCD-89C5-9972F1DCFDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1443D580-26B1-4BCD-89C5-9972F1DCFDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7035F86-A0C9-4328-AACD-19F032A47A7A}
+	EndGlobalSection
+EndGlobal

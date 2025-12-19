@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "order": {
+        "customerOrderDate": "2025-12-01T18:57:18+03:00",
+        "customerOrderId": "DG000000000000001845",
+        "orderPaymentTypeId": "CARD_ONLINE",
+        "paymentTransactionId": "30bfce9f-000f-5001-8000-1a6cd718b5ad"
+      },
+      "serviceScheme": "DELIVERY_BY_MERCHANT",
+      "method": "CLICK_COLLECT",
+      "shipment": {
+        "shipmentOrderId": "DG000000000000018451",
+        "brand": "Gamerilla",
+        "partnerId": "000023759",
+        "contractId": "000000000827972",
+        "merchantOrderCode": "30bfce9f-000f-5001-8000-1a6cd718b5ad",
+        "merchantId": "254423",
+        "payment": {
+          "paymentTypeId": "CARD_ONLINE",
+          "amount": 1306.38
+        },
+        "lots": [
+          {
+            "statusDate": "2025-12-01T18:58:15+03:00",
+            "lotId": "DG00000000001845-001",
+            "lotStatusId": "RCOMPLT",
+            "lotName": "Kukuruza",
+            "discounts": [
+              {
+                "id": "00000000-0000-0000-0000-000000011aeb",
+                "amount": 25.62
+              }
+            ],
+            "privilegesObtained": [],
+            "good": {
+              "goodsId": "0000000000012705",
+              "categoryId": "900101011101",
+              "merchantGoodsId": "12705"
+            },
+            "quantity": 4,
+            "price": 333.0,
+            "amount": 1306.38
+          }
+        ]
+      },
+      "timeStamp": "2025-12-01T18:58:16+03:00",
+      "dataVersion": "639002014963413686",
+      "type": "digital goods",
+      "source": "GamersHub",
+      "reference": {
+        "promotions": [
+          {
+            "promotionId": "00000000-0000-0000-0000-000000011aeb",
+            "periodId": "00000000-0000-0000-0001-000000011aeb",
+            "typeCode": "GHPromokod",
+            "name": "Персональный промокод в Gamershub",
+            "groupId": "GH0.1",
+            "fundingShares": [
+              {
+                "funder": "000029932",
+                "share": 100
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

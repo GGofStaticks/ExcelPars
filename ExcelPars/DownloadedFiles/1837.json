@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "order": {
+        "customerOrderDate": "2025-12-01T15:23:43+03:00",
+        "customerOrderId": "DG000000000000001837",
+        "orderPaymentTypeId": "CARD_ONLINE",
+        "paymentTransactionId": "1023d21b-49db-77bc-93c1-c2392a6797b9"
+      },
+      "serviceScheme": "DELIVERY_BY_MERCHANT",
+      "method": "CLICK_COLLECT",
+      "shipment": {
+        "shipmentOrderId": "DG000000000000018371",
+        "brand": "TestSoftClub",
+        "partnerId": "000000000",
+        "contractId": "000000000000000",
+        "merchantOrderCode": "1023d21b-49db-77bc-93c1-c2392a6797b9",
+        "merchantId": "000000",
+        "payment": {
+          "paymentTypeId": "CARD_ONLINE",
+          "amount": 900.89
+        },
+        "lots": [
+          {
+            "statusDate": "2025-12-01T15:31:08+03:00",
+            "lotId": "DG00000000001837-001",
+            "lotStatusId": "RCOMPLT",
+            "lotName": "Playstation Store пополнение бумажника: Карта оплаты 1000 руб. [Карта цифрового кода]",
+            "discounts": [
+              {
+                "id": "00000000-0000-0000-0000-000000011aeb",
+                "amount": 100.10
+              }
+            ],
+            "privilegesObtained": [],
+            "good": {
+              "goodsId": "0000000000012656",
+              "categoryId": "900101011101",
+              "merchantGoodsId": "12656"
+            },
+            "quantity": 1,
+            "price": 1000.99,
+            "amount": 900.89
+          }
+        ]
+      },
+      "timeStamp": "2025-12-01T15:31:08+03:00",
+      "dataVersion": "639001890681063723",
+      "type": "digital goods",
+      "source": "GamersHub",
+      "reference": {
+        "promotions": [
+          {
+            "promotionId": "00000000-0000-0000-0000-000000011aeb",
+            "periodId": "00000000-0000-0000-0001-000000011aeb",
+            "typeCode": "GHPromokod",
+            "name": "Персональный промокод в Gamershub",
+            "groupId": "GH0.1",
+            "fundingShares": [
+              {
+                "funder": "000029932",
+                "share": 100
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
